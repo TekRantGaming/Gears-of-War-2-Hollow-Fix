@@ -1,0 +1,12 @@
+# build output
+dist/
+src/out/
+installer/obj/
+*.obj
+*.exp
+*.lib
+*.res
+
+# local, not part of the mod
+config_backup_*/
+*.log

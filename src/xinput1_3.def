@@ -1,0 +1,10 @@
+LIBRARY xinput1_3
+EXPORTS
+    XInputGetState                  = HIF_XInputGetState                  @2
+    XInputSetState                  = HIF_XInputSetState                  @3
+    XInputGetCapabilities           = HIF_XInputGetCapabilities           @4
+    XInputEnable                    = HIF_XInputEnable                    @5
+    XInputGetDSoundAudioDeviceGuids = HIF_XInputGetDSoundAudioDeviceGuids @6
+    XInputGetBatteryInformation     = HIF_XInputGetBatteryInformation     @7
+    XInputGetKeystroke              = HIF_XInputGetKeystroke              @8
+    XInputGetStateEx                = HIF_XInputGetStateEx                @100 NONAME
